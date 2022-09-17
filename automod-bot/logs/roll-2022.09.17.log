@@ -1,0 +1,321 @@
+17:35:39.726 INFO  Loading commands... 
+17:35:39.772 DEBUG Skipping slash command avatar. Disabled! 
+17:35:39.776 DEBUG Skipping slash command botinvite. Disabled! 
+17:35:39.779 DEBUG Skipping slash command botstats. Disabled! 
+17:35:39.780 DEBUG Skipping slash command channelinfo. Disabled! 
+17:35:39.782 DEBUG Skipping slash command emojiinfo. Disabled! 
+17:35:39.783 DEBUG Skipping slash command guildinfo. Disabled! 
+17:35:39.792 DEBUG Skipping command bot. Disabled! 
+17:35:39.793 DEBUG Skipping command info. Disabled! 
+17:35:39.794 DEBUG Skipping slash command uptime. Disabled! 
+17:35:39.795 DEBUG Skipping slash command userinfo. Disabled! 
+17:35:39.809 DEBUG Skipping slash command deafen. Disabled! 
+17:35:39.810 DEBUG Skipping slash command disconnect. Disabled! 
+17:35:39.812 DEBUG Skipping slash command move. Disabled! 
+17:35:39.814 DEBUG Skipping slash command purge. Disabled! 
+17:35:39.815 DEBUG Skipping slash command purgeattach. Disabled! 
+17:35:39.815 DEBUG Skipping slash command purgebots. Disabled! 
+17:35:39.816 DEBUG Skipping slash command purgelinks. Disabled! 
+17:35:39.817 DEBUG Skipping slash command purgetoken. Disabled! 
+17:35:39.818 DEBUG Skipping slash command purgeuser. Disabled! 
+17:35:39.820 DEBUG Skipping command purge. Disabled! 
+17:35:39.821 DEBUG Skipping command voice. Disabled! 
+17:35:39.822 DEBUG Skipping slash command undeafen. Disabled! 
+17:35:39.828 DEBUG Skipping slash command vmute. Disabled! 
+17:35:39.829 DEBUG Skipping slash command vunmute. Disabled! 
+17:35:39.852 INFO  Loaded 89 commands 
+17:35:39.852 INFO  Loaded 73 slash commands 
+17:35:39.852 INFO  Loading contexts... 
+17:35:39.854 INFO  Loaded 2 USER contexts 
+17:35:39.854 INFO  Loaded 0 MESSAGE contexts 
+17:35:39.855 INFO  Loading events... 
+17:35:39.889 INFO  Loaded 22 events. Success (22) Failed (0) 
+17:38:48.327 INFO  Loading commands... 
+17:38:48.379 DEBUG Skipping slash command avatar. Disabled! 
+17:38:48.380 DEBUG Skipping slash command botinvite. Disabled! 
+17:38:48.382 DEBUG Skipping slash command botstats. Disabled! 
+17:38:48.383 DEBUG Skipping slash command channelinfo. Disabled! 
+17:38:48.384 DEBUG Skipping slash command emojiinfo. Disabled! 
+17:38:48.386 DEBUG Skipping slash command guildinfo. Disabled! 
+17:38:48.392 DEBUG Skipping command bot. Disabled! 
+17:38:48.392 DEBUG Skipping command info. Disabled! 
+17:38:48.393 DEBUG Skipping slash command uptime. Disabled! 
+17:38:48.394 DEBUG Skipping slash command userinfo. Disabled! 
+17:38:48.404 DEBUG Skipping slash command deafen. Disabled! 
+17:38:48.405 DEBUG Skipping slash command disconnect. Disabled! 
+17:38:48.406 DEBUG Skipping slash command move. Disabled! 
+17:38:48.408 DEBUG Skipping slash command purge. Disabled! 
+17:38:48.408 DEBUG Skipping slash command purgeattach. Disabled! 
+17:38:48.409 DEBUG Skipping slash command purgebots. Disabled! 
+17:38:48.409 DEBUG Skipping slash command purgelinks. Disabled! 
+17:38:48.410 DEBUG Skipping slash command purgetoken. Disabled! 
+17:38:48.411 DEBUG Skipping slash command purgeuser. Disabled! 
+17:38:48.419 DEBUG Skipping command purge. Disabled! 
+17:38:48.420 DEBUG Skipping command voice. Disabled! 
+17:38:48.421 DEBUG Skipping slash command undeafen. Disabled! 
+17:38:48.422 DEBUG Skipping slash command vmute. Disabled! 
+17:38:48.423 DEBUG Skipping slash command vunmute. Disabled! 
+17:38:48.451 INFO  Loaded 89 commands 
+17:38:48.451 INFO  Loaded 73 slash commands 
+17:38:48.452 INFO  Loading contexts... 
+17:38:48.454 INFO  Loaded 2 USER contexts 
+17:38:48.454 INFO  Loaded 0 MESSAGE contexts 
+17:38:48.455 INFO  Loading events... 
+17:38:48.490 INFO  Loaded 22 events. Success (22) Failed (0) 
+17:38:48.909 INFO  VersionCheck: Your discord bot is up to date 
+17:38:48.910 INFO  Validating config.js and environment variables 
+17:38:48.910 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+17:38:48.910 WARN  config.js: SUPPORT_SERVER is not provided 
+17:38:48.910 INFO  Launching dashboard 
+17:38:48.913 ERROR Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+{"code":"MODULE_NOT_FOUND","requireStack":["/home/melkanea/automod-bot/dashboard/app.js","/home/melkanea/automod-bot/bot.js"]}
+Error: Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._resolveFilename (/home/melkanea/automod-bot/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/melkanea/automod-bot/dashboard/app.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /home/melkanea/automod-bot/bot.js:25:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+17:38:48.915 INFO  Connecting to MongoDb... 
+17:38:50.659 INFO  Mongoose: Database connection established 
+17:38:51.239 INFO  Logged in as ArielMaul#5369! (972804374374014976) 
+17:38:51.239 INFO  Initializing music manager 
+17:38:51.571 ERROR Unexpected server response: 200
+{}
+Error: Unexpected server response: 200
+    at ClientRequest.<anonymous> (/home/melkanea/automod-bot/node_modules/erela.js/node_modules/ws/lib/websocket.js:767:7)
+    at ClientRequest.emit (node:events:513:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:693:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:534:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+17:38:51.977 INFO  Successfully registered slash commands 
+17:40:50.709 INFO  Loading commands... 
+17:40:50.762 DEBUG Skipping slash command avatar. Disabled! 
+17:40:50.763 DEBUG Skipping slash command botinvite. Disabled! 
+17:40:50.765 DEBUG Skipping slash command botstats. Disabled! 
+17:40:50.766 DEBUG Skipping slash command channelinfo. Disabled! 
+17:40:50.767 DEBUG Skipping slash command emojiinfo. Disabled! 
+17:40:50.768 DEBUG Skipping slash command guildinfo. Disabled! 
+17:40:50.774 DEBUG Skipping command bot. Disabled! 
+17:40:50.775 DEBUG Skipping command info. Disabled! 
+17:40:50.776 DEBUG Skipping slash command uptime. Disabled! 
+17:40:50.777 DEBUG Skipping slash command userinfo. Disabled! 
+17:40:50.787 DEBUG Skipping slash command deafen. Disabled! 
+17:40:50.788 DEBUG Skipping slash command disconnect. Disabled! 
+17:40:50.789 DEBUG Skipping slash command move. Disabled! 
+17:40:50.790 DEBUG Skipping slash command purge. Disabled! 
+17:40:50.791 DEBUG Skipping slash command purgeattach. Disabled! 
+17:40:50.792 DEBUG Skipping slash command purgebots. Disabled! 
+17:40:50.792 DEBUG Skipping slash command purgelinks. Disabled! 
+17:40:50.793 DEBUG Skipping slash command purgetoken. Disabled! 
+17:40:50.793 DEBUG Skipping slash command purgeuser. Disabled! 
+17:40:50.800 DEBUG Skipping command purge. Disabled! 
+17:40:50.801 DEBUG Skipping command voice. Disabled! 
+17:40:50.802 DEBUG Skipping slash command undeafen. Disabled! 
+17:40:50.804 DEBUG Skipping slash command vmute. Disabled! 
+17:40:50.804 DEBUG Skipping slash command vunmute. Disabled! 
+17:40:50.828 INFO  Loaded 89 commands 
+17:40:50.828 INFO  Loaded 73 slash commands 
+17:40:50.828 INFO  Loading contexts... 
+17:40:50.830 INFO  Loaded 2 USER contexts 
+17:40:50.831 INFO  Loaded 0 MESSAGE contexts 
+17:40:50.831 INFO  Loading events... 
+17:40:50.864 INFO  Loaded 22 events. Success (22) Failed (0) 
+17:40:51.312 INFO  VersionCheck: Your discord bot is up to date 
+17:40:51.313 INFO  Validating config.js and environment variables 
+17:40:51.313 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+17:40:51.313 WARN  config.js: SUPPORT_SERVER is not provided 
+17:40:51.314 INFO  Launching dashboard 
+17:40:51.316 ERROR Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+{"code":"MODULE_NOT_FOUND","requireStack":["/home/melkanea/automod-bot/dashboard/app.js","/home/melkanea/automod-bot/bot.js"]}
+Error: Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._resolveFilename (/home/melkanea/automod-bot/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/melkanea/automod-bot/dashboard/app.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /home/melkanea/automod-bot/bot.js:25:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+17:40:51.319 INFO  Connecting to MongoDb... 
+17:40:53.030 INFO  Mongoose: Database connection established 
+17:40:53.591 INFO  Logged in as ArielMaul#5369! (972804374374014976) 
+17:40:53.591 INFO  Initializing music manager 
+17:40:53.896 ERROR Unexpected server response: 200
+{}
+Error: Unexpected server response: 200
+    at ClientRequest.<anonymous> (/home/melkanea/automod-bot/node_modules/erela.js/node_modules/ws/lib/websocket.js:767:7)
+    at ClientRequest.emit (node:events:513:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:693:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:534:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+17:40:53.944 INFO  Successfully registered slash commands 
+17:41:09.793 ERROR Cannot read properties of null (reading 'toLowerCase')
+{}
+TypeError: Cannot read properties of null (reading 'toLowerCase')
+    at Eval.interactionRun (/home/melkanea/automod-bot/src/commands/owner/eval.js:56:15)
+    at Eval.executeInteraction (/home/melkanea/automod-bot/src/structures/Command.js:225:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async module.exports (/home/melkanea/automod-bot/src/events/interactions/interactionCreate.js:17:18) 
+17:48:15.063 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"put","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.add (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionAdd.js:27:5) 
+17:48:19.735 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"delete","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.remove (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:155:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionRemove.js:22:5) 
+17:48:20.607 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"put","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.add (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionAdd.js:27:5) 
+17:48:23.131 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"delete","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.remove (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:155:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionRemove.js:22:5) 
+17:50:49.703 INFO  Loading commands... 
+17:50:49.756 DEBUG Skipping slash command avatar. Disabled! 
+17:50:49.757 DEBUG Skipping slash command botinvite. Disabled! 
+17:50:49.760 DEBUG Skipping slash command botstats. Disabled! 
+17:50:49.761 DEBUG Skipping slash command channelinfo. Disabled! 
+17:50:49.762 DEBUG Skipping slash command emojiinfo. Disabled! 
+17:50:49.763 DEBUG Skipping slash command guildinfo. Disabled! 
+17:50:49.771 DEBUG Skipping command bot. Disabled! 
+17:50:49.772 DEBUG Skipping command info. Disabled! 
+17:50:49.772 DEBUG Skipping slash command uptime. Disabled! 
+17:50:49.773 DEBUG Skipping slash command userinfo. Disabled! 
+17:50:49.784 DEBUG Skipping slash command deafen. Disabled! 
+17:50:49.785 DEBUG Skipping slash command disconnect. Disabled! 
+17:50:49.787 DEBUG Skipping slash command move. Disabled! 
+17:50:49.788 DEBUG Skipping slash command purge. Disabled! 
+17:50:49.788 DEBUG Skipping slash command purgeattach. Disabled! 
+17:50:49.789 DEBUG Skipping slash command purgebots. Disabled! 
+17:50:49.790 DEBUG Skipping slash command purgelinks. Disabled! 
+17:50:49.790 DEBUG Skipping slash command purgetoken. Disabled! 
+17:50:49.791 DEBUG Skipping slash command purgeuser. Disabled! 
+17:50:49.793 DEBUG Skipping command purge. Disabled! 
+17:50:49.794 DEBUG Skipping command voice. Disabled! 
+17:50:49.796 DEBUG Skipping slash command undeafen. Disabled! 
+17:50:49.797 DEBUG Skipping slash command vmute. Disabled! 
+17:50:49.798 DEBUG Skipping slash command vunmute. Disabled! 
+17:50:49.828 INFO  Loaded 89 commands 
+17:50:49.828 INFO  Loaded 73 slash commands 
+17:50:49.829 INFO  Loading contexts... 
+17:50:49.832 INFO  Loaded 2 USER contexts 
+17:50:49.833 INFO  Loaded 0 MESSAGE contexts 
+17:50:49.834 INFO  Loading events... 
+17:50:49.873 INFO  Loaded 22 events. Success (22) Failed (0) 
+17:50:50.344 INFO  VersionCheck: Your discord bot is up to date 
+17:50:50.345 INFO  Validating config.js and environment variables 
+17:50:50.346 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+17:50:50.346 WARN  config.js: SUPPORT_SERVER is not provided 
+17:50:50.347 INFO  Launching dashboard 
+17:50:50.351 ERROR Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+{"code":"MODULE_NOT_FOUND","requireStack":["/home/melkanea/automod-bot/dashboard/app.js","/home/melkanea/automod-bot/bot.js"]}
+Error: Cannot find module './auth/CheckAuth'
+Require stack:
+- /home/melkanea/automod-bot/dashboard/app.js
+- /home/melkanea/automod-bot/bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._resolveFilename (/home/melkanea/automod-bot/node_modules/module-alias/index.js:49:29)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/melkanea/automod-bot/dashboard/app.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /home/melkanea/automod-bot/bot.js:25:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+17:50:50.354 INFO  Connecting to MongoDb... 
+17:50:52.056 INFO  Mongoose: Database connection established 
+17:50:52.600 INFO  Logged in as ArielMaul#5369! (972804374374014976) 
+17:50:52.600 INFO  Initializing music manager 
+17:50:52.924 ERROR Unexpected server response: 200
+{}
+Error: Unexpected server response: 200
+    at ClientRequest.<anonymous> (/home/melkanea/automod-bot/node_modules/erela.js/node_modules/ws/lib/websocket.js:767:7)
+    at ClientRequest.emit (node:events:513:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:693:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:534:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+17:50:53.013 INFO  Successfully registered slash commands 
+17:59:22.086 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"put","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.add (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionAdd.js:27:5) 
+17:59:22.920 ERROR Missing Permissions
+{"name":"DiscordAPIError","message":"Missing Permissions","method":"delete","path":"/guilds/899774419654803527/members/885961944413134849/roles/902848157224931338","code":50013,"httpStatus":403,"requestData":{"files":[]}}
+DiscordAPIError: Missing Permissions
+    at RequestHandler.execute (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:350:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RequestHandler.push (/home/melkanea/automod-bot/node_modules/discord.js/src/rest/RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.remove (/home/melkanea/automod-bot/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:155:7)
+    at async module.exports (/home/melkanea/automod-bot/src/events/reaction/messageReactionRemove.js:22:5) 
